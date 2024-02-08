@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>INST377 Lab 2 Self</title>
+  <style>
+    h1{text-align: center;}
+    form{text-align: center;}
+    p{text-align: center;}
+  </style>
+  <body>
+    <h1>INST377 Lab 2 Please Submit Your Name Major and Year</h1>
+    <form action="INST377 lab 2 thank you.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+      
+        <label for="major">Major:</label>
+        <input type="text" id="major" name="major"><br><br>
+      
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year"><br><br>
+      
+        <input type="submit" value="Submit">
+      </form>
+       <p>Click to Submit</p>
+    </form>
+  </body>
+  </head>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>INST377 Lab 2 Self</title>
+    <style>
+      body {
+        background-color: lightblue;
+      }
+
+      input[type="submit"] {
+        background-color: green; 
+        margin: 10px; 
+        color: white; 
+        border: none; 
+        padding: 10px 20px; 
+        cursor: pointer; 
+      }
+
+    
+      input[type="submit"]:hover {
+        background-color: pink; 
+      }
+
+      
+      .textbox-container {
+        margin: 20px; 
+        font-size: 16px;
+      }
+      
+     
+      h1, form, p {
+        text-align: center;
+      }
+    </style>
+  </head>
+</html>
